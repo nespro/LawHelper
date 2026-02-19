@@ -6,10 +6,10 @@ interface ArticleCardProps {
 }
 
 const CODE_STYLES: Record<string, string> = {
-  ZGB: "bg-red-50 text-[var(--color-accent)] dark:bg-red-950/30",
-  OR: "bg-neutral-100 text-[var(--color-foreground)] dark:bg-neutral-800",
-  SVG: "bg-red-50 text-[var(--color-accent)] dark:bg-red-950/30",
-  SchKG: "bg-neutral-100 text-[var(--color-foreground)] dark:bg-neutral-800",
+  ZGB: "bg-red-50 text-[var(--color-accent)]",
+  OR: "bg-neutral-100 text-[var(--color-foreground)]",
+  SVG: "bg-red-50 text-[var(--color-accent)]",
+  SchKG: "bg-neutral-100 text-[var(--color-foreground)]",
 };
 
 export default function ArticleCard({ result, index }: ArticleCardProps) {

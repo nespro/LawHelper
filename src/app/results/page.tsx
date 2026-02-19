@@ -93,11 +93,11 @@ function ResultsContent() {
 
       {/* Error state */}
       {error && !loading && (
-        <div className="rounded-xl border border-red-200 bg-red-50 p-6 text-center dark:border-red-900 dark:bg-red-950/30">
-          <p className="text-sm font-medium text-red-700 dark:text-red-400">
+        <div className="rounded-xl border border-red-200 bg-red-50 p-6 text-center">
+          <p className="text-sm font-medium text-red-700">
             Ein Fehler ist aufgetreten
           </p>
-          <p className="mt-1 text-xs text-red-600 dark:text-red-500">
+          <p className="mt-1 text-xs text-red-600">
             {error}
           </p>
         </div>
@@ -152,8 +152,8 @@ function ResultsContent() {
       )}
 
       {/* Disclaimer */}
-      <div className="mt-10 rounded-lg bg-red-50/50 border border-red-200/50 p-4 text-center dark:bg-red-950/20 dark:border-red-800/30">
-        <p className="text-xs text-red-800 dark:text-red-400 leading-relaxed">
+      <div className="mt-10 rounded-lg bg-red-50/50 border border-red-200/50 p-4 text-center">
+        <p className="text-xs text-red-800 leading-relaxed">
           Diese Ergebnisse dienen ausschliesslich der Information und stellen
           keine Rechtsberatung dar. Für verbindliche Auskünfte konsultieren
           Sie bitte eine Fachperson.
