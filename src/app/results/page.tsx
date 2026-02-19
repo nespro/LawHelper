@@ -152,8 +152,8 @@ function ResultsContent() {
       )}
 
       {/* Disclaimer */}
-      <div className="mt-10 rounded-lg bg-amber-50/50 border border-amber-200/50 p-4 text-center dark:bg-amber-950/20 dark:border-amber-800/30">
-        <p className="text-xs text-amber-800 dark:text-amber-400 leading-relaxed">
+      <div className="mt-10 rounded-lg bg-red-50/50 border border-red-200/50 p-4 text-center dark:bg-red-950/20 dark:border-red-800/30">
+        <p className="text-xs text-red-800 dark:text-red-400 leading-relaxed">
           Diese Ergebnisse dienen ausschliesslich der Information und stellen
           keine Rechtsberatung dar. Für verbindliche Auskünfte konsultieren
           Sie bitte eine Fachperson.

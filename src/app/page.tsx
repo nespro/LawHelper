@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <section className="flex flex-col items-center justify-center px-6 py-20 md:py-32">
       <div className="mb-4 inline-flex items-center rounded-full border border-[var(--color-border)] bg-[var(--color-card)] px-4 py-1.5 text-xs font-medium text-[var(--color-muted)]">
-        Schweizer Zivilrecht &middot; ZGB &amp; OR
+        Schweizer Recht &middot; ZGB &middot; OR &middot; SVG &middot; SchKG
       </div>
 
       <h1 className="mb-4 text-center text-4xl font-bold tracking-tight text-[var(--color-foreground)] md:text-5xl lg:text-6xl">
@@ -14,8 +14,8 @@ export default function HomePage() {
 
       <p className="mb-10 max-w-xl text-center text-base text-[var(--color-muted)] md:text-lg leading-relaxed">
         Beschreiben Sie Ihre rechtliche Situation in eigenen Worten.
-        Wir zeigen Ihnen die relevanten Artikel aus dem Schweizerischen
-        Zivilgesetzbuch (ZGB) und dem Obligationenrecht (OR).
+        Wir zeigen Ihnen die relevanten Artikel aus dem ZGB,
+        OR, SVG und SchKG.
       </p>
 
       <SearchBar />
