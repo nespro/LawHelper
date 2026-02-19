@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --color-background: #fafafa;
+  --color-foreground: #171717;
+  --color-primary: #1e293b;
+  --color-primary-light: #334155;
+  --color-accent: #0f766e;
+  --color-accent-light: #14b8a6;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-card: #ffffff;
+  --color-card-hover: #f8fafc;
+  --color-zgb: #1e40af;
+  --color-or: #9333ea;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0a0a0a;
+    --color-foreground: #ededed;
+    --color-primary: #e2e8f0;
+    --color-primary-light: #cbd5e1;
+    --color-accent: #14b8a6;
+    --color-accent-light: #2dd4bf;
+    --color-muted: #94a3b8;
+    --color-border: #1e293b;
+    --color-card: #111827;
+    --color-card-hover: #1e293b;
+    --color-zgb: #60a5fa;
+    --color-or: #c084fc;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2s ease-in-out infinite;
+}
